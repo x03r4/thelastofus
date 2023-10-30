@@ -10,3 +10,98 @@ body {
   background-image: radial-gradient(#24242443 1px, #f2f2f2 1px);
   background-size: 24px 24px;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.right-pills{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-me {
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 22vw;
+  height: 28vw;
+  border-radius: 2vw;
+  background: #013c58;
+  color: #f2f2f2;
+  background-image: radial-gradient(#f2f2f231 1px, #013c58 1px);
+  background-size: 24px 24px;
+}
+.about-me img {
+  width: 70%;
+  margin-bottom: 2vw;
+}
+.about-me p {
+  font-weight: 600;
+  font-size: 1.4vw;
+}
+.about-me p span {
+  color: #EE5007;
+}
+.welcome {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 18vw;
+  height: 10vw;
+  border-radius: 2vw;
+  background: #EE5007;
+  background-image: radial-gradient(#013c585b 1px, #EE5007 1px);
+  background-size: 24px 24px;
+  font-size: 1.4vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #013C58;
+}
+.welcome p {
+  padding: 3vw;
+}
+.pill {
+  margin: 10px;
+  display: flex;
+  border-radius: 2vw;
+  font-size: 1.4vw;
+  font-weight: 600;
+}
+.pill-name {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 28vw;
+  height: 15vw;
+  color: #242424;
+  background: #dadada;
+  background-image: radial-gradient(#01040634 1px, #dadada 1px);
+  background-size: 24px 24px;
+  padding: 3vw;
+}
+.pill-name .function {
+  font-size: 1vw;
+  text-transform: uppercase;
+  color: #EE5007;
+  font-weight: 700;
+  letter-spacing: .5vw;
+  padding-left: 4px;
+}
+.pill-name .name {
+  font-size: 4vw;
+  color: #404040;
+  text-transform: capitalize;
+  font-weight: 800;
+  letter-spacing: -2px;
+  line-height: 84%;
+}
+.services img {
+  margin: 1vw;
+  width: 60vw;
+}

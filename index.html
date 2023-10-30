@@ -10,7 +10,8 @@
   <!-- import fonta -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
   <!-- główny plik styli css -->
   <link rel="stylesheet" href="main.css">
@@ -26,8 +27,25 @@
   <nav></nav>
 
   <!-- główna zawartość -->
-  <main style="display:flex; justify-content: center; align-items: center; height: 100vh;">
-    <h1>Hello World!</h1>
+  <main>
+    <section style="display: flex;">
+      <div class="about-me">
+        <img src="/assets/avatar.svg" alt="avatar">
+        <p><span>#&nbsp;</span>ABOUT ME</p>
+      </div>
+      <div class="right-pills">
+        <div class="welcome">
+          <p>welcome<br />to my<br />personal<br />website</p>
+        </div>
+        <div class="pill pill-name">
+          <p class="function">front-end dev</p>
+          <p class="name">daniel j. kobrzycki</p>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <img src="/assets/services.svg" alt="services">
+    </section>
   </main>
 
   <!-- stopka -->
