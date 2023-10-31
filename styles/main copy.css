@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -16,6 +17,9 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+.pills-section {
+  display: flex;
 }
 .right-pills{
   display: flex;
@@ -70,10 +74,10 @@ main {
   margin: 10px;
   display: flex;
   border-radius: 2vw;
-  font-size: 1.4vw;
-  font-weight: 600;
 }
 .pill-name {
+  font-size: 1.4vw;
+  font-weight: 600;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -104,4 +108,38 @@ main {
 .services img {
   margin: 1vw;
   width: 60vw;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    justify-content: flex-start;
+    margin-top: 50px;
+  }
+  .pills-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .right-pills {
+    gap: 20px;
+  }
+  .about-me {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vw;
+  }
+  .about-me p {
+    font-size: 3vw;
+  }
+  .pill-name {
+    width: 100%;
+    margin: 0;
+  }
+  .welcome {
+    width: 100%;
+    height: 30vw;
+    margin: 0;
+    font-size: 1em;
+  }
 }
