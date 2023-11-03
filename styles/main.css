@@ -3,6 +3,7 @@
   --ORANGE: #ee5007;
   --GRAY: #dadada;
   --TEXT-GRAY: #d2d2d4;
+  --TEXT-TEAL: #013C58;
 }
 * {
   padding: 0;
@@ -41,8 +42,6 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-
-  width: 20vw;
   aspect-ratio: 8/10;
   justify-self: center;
 }
@@ -56,12 +55,52 @@ main {
 .grid--item--2 {
   border-radius: 17px;
   background: var(--ORANGE);
-
+  display: flex;
+  width: 80%;
+  /* background-image: radial-gradient(#013c585b 1px, #EE5007 1px);
+  color: #013C58;
+  background-size: 24px 24px; */
 }
+
+.welcome {
+  color: var(--TEXT-TEAL);
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.4vw;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* element z imieniem i nazwiskiem */
 .grid--item--3 {
-  height: 80%;
+  /* height: 80%; */
   border-radius: 17px;
   background: var(--GRAY);
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 2vw;
+}
+.grid--item--3 .position {
+  font-size: 1vw;
+  text-transform: uppercase;
+  color: #EE5007;
+  font-weight: 700;
+  letter-spacing: .5vw;
+  padding-left: 4px;
+  margin-bottom: 1em;
+}
+.grid--item--3 .name {
+  font-size: 4vw;
+  color: #404040;
+  text-transform: capitalize;
+  font-weight: 800;
+  letter-spacing: -2px;
+  line-height: 84%;
 }
 .grid--item--4 {
   border-radius: 17px;
