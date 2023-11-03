@@ -71,11 +71,11 @@ main {
   font-size: 1.4vw;
   text-transform: uppercase;
   font-weight: 600;
+  padding-left: 2vw;
 }
 
 /* element z imieniem i nazwiskiem */
 .grid--item--3 {
-  /* height: 80%; */
   border-radius: 17px;
   background: var(--GRAY);
 
@@ -95,7 +95,7 @@ main {
   margin-bottom: 1em;
 }
 .grid--item--3 .name {
-  font-size: 4vw;
+  font-size: calc(4vw - 10px);
   color: #404040;
   text-transform: capitalize;
   font-weight: 800;
